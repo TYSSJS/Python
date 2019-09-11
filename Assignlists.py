@@ -1,0 +1,23 @@
+l=[10,20,30,'hi','hello']
+l1=[15,25,35,'by','py' 'program']
+print(l.count(10))
+print(l.index(30))
+l.remove(10)
+print(l)
+l.extend(l1)
+print(l)
+print(l.insert(1,'hello'))
+print(l)
+print(l.pop(2))
+print(l)
+l.append('hhhhhhh')
+print("apended list:",l)
+b=l.copy()
+print(b)
+l2=[0,9,8,90]
+l2.sort()
+print(l2)
+l2.reverse()
+print(l2)
+l2.clear()
+print(l2)
