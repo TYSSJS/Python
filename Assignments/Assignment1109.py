@@ -40,7 +40,9 @@ print(l)
 
 l1 = l.copy()              #copy
 print(l1)
-
+toBeCopied = ['new', 'list', 23, True]
+l.extend(toBeCopied)       #extend
+print(l)
 l2 = [34,56.5,12,78,34]
 l2.sort()                  #sort
 print(l2)
