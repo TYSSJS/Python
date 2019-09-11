@@ -1,0 +1,48 @@
+s="good afternoon"
+print(s.replace('o','$'))
+print(s.replace('good','bad'))
+
+print(s.count('o'))
+print(s.index('good'))
+print(s.startswith('g'))
+print(s.endswith('n'))
+print(s.find('t'))
+print(s.isspace())
+print(s.isalnum())
+print(s.isalpha())
+print(s.title())
+print(s.capitalize())
+print(s.islower())
+print(s.lower())
+print(s.islower())
+print(s.upper())
+print(s.__contains__('r'))
+print(s.__add__(' ' 'yes'))
+g=s.split()
+print(" no ".join(g))
+
+#List Methods
+l=[2,5,'set',5.2]
+print(l.index(5))
+
+print(l.count('set'))
+l.insert(4,'zero')
+print(l)
+l.remove(5.2)
+print(l)
+l.pop(1)
+print(l)
+l2=[3,2,6,'set']
+l.extend(l2)
+print(l)
+d=l.copy()
+print(d)
+l.append(20)
+print(l)
+e=[1,5,8,3,6]
+e.sort()
+print(e)
+print(l.reverse())
+print(l.__len__())
+l.clear()
+print(l)
