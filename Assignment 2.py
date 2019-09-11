@@ -46,6 +46,8 @@ lis2 = [15,78,36,'hi', 'bye']
 print(lis1.extend(lis2))
 print(lis1)
 
+print(lis1.clear())
+
 
 
 
