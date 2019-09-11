@@ -40,6 +40,14 @@ print(s3.index('w'), 6)
 # find() will return the firts index postion inside string
 print(s3.find('web'))
 
+s12 = "this is a python class"
+print("joining")
+q = s12.split()
+print("@".join(q))
+print(q)
+print("#".join(q))
+
+
 print(s3.replace("wide", "global"))
 print(s3)
 print(s3.split())
