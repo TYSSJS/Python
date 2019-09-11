@@ -46,3 +46,5 @@ print(l)
 l2 = [34,56.5,12,78,34]
 l2.sort()                  #sort
 print(l2)
+l2.reverse()               #reverse
+print(l2)
