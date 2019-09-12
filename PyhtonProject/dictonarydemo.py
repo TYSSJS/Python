@@ -1,0 +1,13 @@
+d = {"c1" : "tyss" , "c2" : "google", "c3":"IBM"}
+print(d.keys())
+print(d.values())
+d1 = d.copy()
+print(d1)
+d1.clear()
+print()
+d.setdefault("c4", "gmail")
+print(d)
+d.setdefault("c5")
+print(d)
+d.setdefault("c5", "yahoo")
+print(d)
