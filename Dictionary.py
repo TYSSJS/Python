@@ -14,3 +14,4 @@ print(d)   #{'b': 'IBM', 'c': 'GOOGLE', 'd': 'IBS'}
 
 print(d.get('d'))  #IBS
 print(d.get('IBS'))
+print(d.values())

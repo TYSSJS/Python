@@ -1,0 +1,48 @@
+# 11-write the definations of-list,set,tuple
+LIST:-
+-in python list is a data structure
+-list is the collection of values which is declared within []
+-The values in list may be homogeneous or heterogeneous
+-list is growable in nature i.e its changable and mutable
+-it allows the insertion order , so list is indexed
+-it can be sorted
+eg:- l=[2,"hi",587,25.63,'hello',20,'a']
+
+SET:-
+-set is the collection of heterogeneous which is declared within {}
+- set does not allow duplicate values
+-set doesn't allow insertion order so its not indexed
+-here we have to perform (union, intersection, difference) operations for iteration
+eg:- s={"abc",45,'f',25.47,78}
+
+TUPLE:-
+-set in python same as list but tuple is not growable
+-tuple is represented by ()
+eg:- t=("abc",25,78.98,'a',10)
+
+# 12-define class,object,method,constuctor
+CLASS:-
+-class is a template or blue print which used to create object
+-class is created by using keyword "class"
+syntax:   class className:
+
+OBJECT:-
+-object is the instance or physical existence of a class which describes the properties and behaviours
+-object is created by using class constructor in python
+-Multiple object may be created for a particular class but address of each object is different
+syntax: objectName=className()
+
+METHOD:-
+-methods are the function in a class used to perform a particular action or task
+-methods may be inbuilt or user defined
+-it may have return type and argument depending upon the usage of the user
+syntax:- def methodName():
+
+CONSTRUCTOR:-
+-Constructor is a function present in class which having same name as the class
+-it is used to initialise values for the object during object creation
+-Without constructor object can"t be created
+syntax:- className()
+        -objectName=className()
+
+

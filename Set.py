@@ -19,6 +19,7 @@ print(s)  #{56, 58}
 s.update(s1)
 print(s)  #{1, 2, 34, 56, 58}
 
+
 x={1,2,3,54}
 y={1,2}
 print(x.difference(y))  #{3, 54}
@@ -32,6 +33,10 @@ print(id(x))  #address-3086319850888
 
 print(x.issuperset(y))  #true
 print(y.issubset(x))   #True
+
+print({i for i in range(10)}) # {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
+print(set([i for i in range(10)]))   #{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
+print(tuple([i for i in range(10)]))  #(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
 
 
 

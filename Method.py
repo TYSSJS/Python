@@ -54,3 +54,7 @@ for i in range (1,len(l)-2):
     print(l[i],end=' ')  #2 4 7
 print(" ")
 
+# no argument no returntype
+#  argument with returntype
+# no argument with  returntype
+#  argument no returntype
