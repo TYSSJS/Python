@@ -1,12 +1,13 @@
-t= (1, 2, 3, 4, 2)
+# tuple
+t = (1, 2, 3, 4, 2,"hi")
 print(t)
 print(t.index(2))
 print(t.count(2))
-
+print(t.__getitem__(2))
+print(t.__contains__(2))
 
 # set
-
-s= {1,34,98,1,2,34}
+s = {1, 34, 98, 1, 2, 34}
 print(s)
 s.add(56)
 print(s)
@@ -48,3 +49,9 @@ print(d)
 # d.update(, 'iraq')
 print(d)
 print(d.get('d2'))
+
+
+l=[1,2,3,"hi"]
+l.pop(1)
+print(l)
+l.sort()

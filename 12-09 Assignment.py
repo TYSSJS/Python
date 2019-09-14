@@ -52,20 +52,20 @@ else:
 
 print(" ")
 
- s=input("enter a line")
+s=input("enter a line")
 print(s)
 for i in range(1, len(s)):
     print(s[i], end=",")
 
-for i in range(1, len(s)):
-    if s[i] in range(ord('a'), ord('z')):
-        print("alpha ", s[i])
-    for n in range(0, 9):
-        if s[i].__contains__(str(n)):
-            print("number ", s[i])
-    else:
-        print("symbol", s[i])
-print(" ")
+# for i in range(1, len(s)):
+#     if s[i] in range(ord('a'), ord('z')):
+#         print("alpha ", s[i])
+#     for n in range(0, 9):
+#         if s[i].__contains__(str(n)):
+#             print("number ", s[i])
+#     else:
+#         print("symbol", s[i])
+# print(" ")
 
 def emp(name, id, dept, sal):
     print("emp name-", name, "\n","id-",id,"\n","department-",dept,"\n","sal-",sal)
@@ -108,16 +108,16 @@ print(" ")
 l=[]
 def emp(name, id, dept, sal):
     l.append(sal)
-    print("emp name-", name, "\n","id-",id,"\n","department-",dept,"\n","sal-",sal)
+    print("emp name-", name, "\n", "id-", id, "\n", "department-", dept, "\n", "sal-", sal)
 
 emp("mani", 40, "testing", 8000)
 
 emp("manisa", 40, "testing", 3000)
 print(l)
 if l[0]>l[1]:
-    print(l[0]," is greater")
+    print(l[0], " is greater")
 else:
-    print(l[1]," is greater")
+    print(l[1], " is greater")
 print(" ")
 
 for i in range(1,51):
@@ -178,7 +178,7 @@ rev=s[::-1]
 if (s == rev):
     print("palindrome")
 else:
-print("not a palindrome")
+    print("not a palindrome")
 
 print(" ")
 

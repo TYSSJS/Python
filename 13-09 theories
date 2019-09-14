@@ -1,0 +1,67 @@
+1. LIST:
+ A list is a data structure that is a mutable, or changeable, ordered sequence of elements.
+ We can insert, remove items.
+ We can defined the list inside []
+ Ex : list=[12,'hi',98.8,1,2]
+
+ 2. SET:
+ Set is an unordered collection data type that is iterable, mutable, and has no duplicate elements.
+ we can declare set by {}
+ we can perform difference,clear
+ Ex : set={1, 4, 6, 9}
+
+ 3. TUPLE:
+ A tuple is a sequence of immutable Python objects. Tuples are sequences, just like lists.
+ The differences between tuples and lists are, the tuples cannot be changed unlike lists.
+ Tuples use parentheses, whereas lists use square brackets.
+ Ex : t=('ibm', 'tyss', 97, 2)
+
+ 4. DICTIONARY:
+ Dictionary is a set of key and value pair where keys should unique and values can be duplicate.
+ A dictionary is a collection which is unordered, changeable and indexed.
+ In Python dictionaries are written with curly brackets.
+ Ex : d={1:'hi', 2:'bey'}
+
+ 5. CLASS:
+ A class is a code template for creating objects.
+ In python a class is created by the keyword class .
+ Ex: class Fruit:
+           pass
+orange = Fruit()
+print(orange)
+
+ 6. OBJECT:
+ object is a real time existence which has some property and behaviour.
+ And also we can tell instance of class
+ class pen():
+    brand = 'camblin'
+    def smell(self):
+        print("smells good")
+object=pen()
+
+ 7. CONSTRUCTOR
+ A constructor is a special kind of method that Python calls when it instantiates an object using the definitions found in your class.
+ Python relies on the constructor to perform tasks such as initializing (assigning values to) any instance variables that
+ the object will need when it starts.
+ The constructor can accept arguments when necessary to create the object.
+ When you create a class without a constructor, Python automatically creates a default constructor.
+
+ Ex: class MyClass:
+ Greeting=''
+ def __init__(self, Name="hi"):
+  self.Greeting = Name + "!"
+ def SayHello(self):
+  print("Hello")
+
+  8. METHOD:
+   A method is a function that takes a class instance as its first parameter.
+   Methods are members of classes.
+   Its a block of code to perform some particular task.
+   Ex: def m1():
+         print("hello")
+       m1()
+   We have 4 types of methods:
+   1. no return type, no parameter
+   2. no return type with parameter
+   3. Return type with no parameter
+   4. Return type with parameter
