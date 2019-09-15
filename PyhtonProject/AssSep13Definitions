@@ -1,0 +1,7 @@
+Class --> Class is a non primitive datatype, which represents the blue print of an object.
+
+Object --> Object is an instance of an class.
+
+Method --> Method is the block of code, which can be invoked in an position in class.
+
+Constructor --> Constructors is a special member of class, which is used to create an object of a class.

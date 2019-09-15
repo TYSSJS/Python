@@ -1,0 +1,21 @@
+DATATYPES--
+
+1. Interger --> The Integer datatype stores the whole number from the range -2,147,483,647 to 2,147,483,647.
+
+2. FLoat --> The float datatype stores double-precision floating point number with up to 17 sigificant digits.
+
+3. Boolean --> Boolean datatype is a datatype that has one of two possible values, usually donated by true and false
+
+4. Complex --> Complex data type is usually a composite of other existing datatype. It is the combination of real and complex number.
+
+5. String --> String datatype is comprised of a set of character that can contain space, interger, floating number.
+
+6. List --> List is a datatype which can hold hetrogenous values. It can hold duplicates as well as null. It is growable in size. It maintains insertion order. It have index value.
+
+7. Tuple --> Tuple datatype is a datatype which is similar to list datatype except that tuple is not growable in size.
+
+8. Set --> Set datatype is a datatype which can have hetrogenous values. It dose not maintain the insertion order. And it dose not accept null. It dosenot have index values.
+
+9. Dictionary --> Dictonary is a collection which stores in the form of key value pair. Key has to unique.
+
+
