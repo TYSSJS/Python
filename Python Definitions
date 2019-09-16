@@ -1,0 +1,60 @@
+11)
+Numeric DataType:
+-->int: this one is pretty standard -- plain integers are just positive or negative whole numbers
+-->long: long integers are integers of infinite size.
+    They look just like plain integers except they're followed by the letter "L" (ex: 150L).
+-->float: floats represent real numbers, but are written with decimal points (or scientific notaion) to divide the whole number into fractional parts.
+-->complex: represented by the formula a + bJ, where a and b are floats, and J is the square root of -1 (the result of which is an imaginary number).
+-->Complex numbers are used sparingly in Python.
+
+Boolean: Boolean values are the two constant objects False and True.
+
+String: A string in Python is a sequence of characters.
+-->It is a derived data type. Strings are immutable. This means that once defined, they cannot be changed.
+-->Many Python methods, such as replace(), join(), or split() modify strings. However, they do not modify the original string.
+-->They create a copy of a string which they modify and return to the caller.
+
+List: A list is a data structure in Python that is a mutable, or changeable, ordered sequence of elements.
+-->Each element or value that is inside of a list is called an item.
+-->Just as strings are defined as characters between quotes, lists are defined by having values between square brackets [ ].
+-->Heteregenous and homogenous in nature
+-->It maintains insertion order
+-->Allows duplication
+-->Growable in nature
+
+Set: A Set is an unordered collection data type that is iterable, mutable
+ -->Has no duplicate elements
+ -->It doesnot follow insertion order
+
+Tuple: A tuple is a sequence of immutable Python objects.
+-->Tuples are sequences, just like lists.
+-->The differences between tuples and lists are:
+    --? The tuples cannot be changed unlike lists and tuples use parentheses, whereas lists use square brackets.
+-->Ex: tup1 = ('physics', 'chemistry', 1997, 2000);
+
+Dictionary:A dictionary is a collection which is unordered, changeable and indexed.
+-->In Python dictionaries are written with curly brackets, and they have keys and values.
+-->its a set of key-value pair
+-->Ex : thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict)
+
+12)
+Method:Method is called by its name, but it is associated to an object (dependent).
+-->A method is implicitly passed the object on which it is invoked.
+-->It may or may not return any data.
+-->A method can operate on the data (instance variables) that is contained by the corresponding class.
+   Function:Function is block of code that is also called by its name. (independent)
+     --?The function can have different parameters or may not have any at all. If any data (parameters) are passed, they are passed explicitly.
+     --?It may or may not return any data.
+     --?Function does not deal with Class and its instance concept
+
+class: A class is a code template for creating objects.
+-->Objects have member variables and have behaviour associated with them.
+-->In python a class is created by the keyword class.
+
+object:Object is simply a collection of data (variables) and methods (functions) that act on those data.
+-->And, class is a blueprint for the object.

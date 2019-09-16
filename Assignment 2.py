@@ -47,6 +47,7 @@ print(lis1.extend(lis2))
 print(lis1)
 
 print(lis1.clear())
+print(lis1)
 
 
 
