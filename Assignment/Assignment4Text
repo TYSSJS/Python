@@ -1,0 +1,48 @@
+Assignment4.
+#11.Write the defination of Datatypes (all 5)-list,set,tuple,dictionary
+List:-
+List is a collection of data,which can be of both heterogeneous and homogeneous type.
+Features of list:-
+* Indexed
+*Allow duplicates
+*Implements growable data structures
+*Supports both positive and negative indexing
+*Follows order of insertion
+*List is mutable in nature, We can either add elements, remove elements and insert elements in any position.
+
+Set:-
+Set is a collection of data,which can be of both heterogeneous and homogeneous type.
+Features of Set:-
+*Not Indexed
+*Allow duplicates(but remove duplicates at the time of execution)
+*Implements growable data structures
+*Mutable in nature
+
+Tuple:-
+Tuple is a collection of data,which can be of both heterogeneous and homogeneous type.
+Features of Tuple:-
+*Allow duplicates
+*Indexed
+*Immutable
+*Implements non-growable data structures
+
+Dictionary:-
+Dictionary is a Key value pair. Key-Values are seperated by colon& the pairs are seperated by comma.
+Key must be unique, whereas values can be duplicates
+The entire Dictionaryis enclosed within curly braces
+We can get only keys using keys method and values using values method.
+We can fetch values using specific key.
+
+#12. Define class,object and constructor.
+Class:-
+Class is an blueprint or template for creating an object.
+Class is an combinations of data members and function memebers.
+
+Object:-
+Object is an entity having its own state and behaviour.
+State indicates functionalty of the object
+Behaviour indicated characterstics of the objects.
+
+Constructor:-
+Constructor is a special type of method which is used to initialize the instance members of the class.
+Constructor is used to create the object of a class.

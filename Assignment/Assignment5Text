@@ -1,0 +1,74 @@
+
+#1. What is inhritance, explain with its type.
+Inheritance allows to define a class that inherit all the properties and features from another class.
+Parent class is the class being inherited from base class.
+Type of inheritance:-
+*Single-level inheritance
+*multipleInheritance.py
+*Multiple-level inheritance
+*Hybrid inheritance
+*Hierarical inheritance
+
+#2.WAP for each and every type of inheritance.
+Type of inheritance:-
+*Single-level inheritance
+*multipleInheritance.py
+*Multiple-level inheritance
+*Hybrid inheritance
+*Hierarical inheritance
+Program in following files:
+InheritanceClass.py -> Single-level inheritance & multipleInheritance.py
+HybridInheritance.py -> Hybrid inheritance
+hieraricalInheritance.py-> Hierarical inheritance
+multipleInheritance.py -> Multiple-level inheritance
+
+#3.What do u mean by constructor and explain with example.
+Constructor:-
+Constructor is a special type of method which is used to initialize the instance members of the class.
+Constructor is used to create the object of a class.
+
+Example:-
+class Sample:
+    # paramaterized constructor concept
+    def __init__(self,name,address):
+        self.nm=name
+        self.add=address
+    def display(self,age):
+        print(self.nm,age)
+obj=Sample('anu','bangalore')
+obj.display(12)
+
+#4.How you will perform method overloading and method overriding in python.Explain with example.
+METHOD OVERLOADING:-
+Method overloading is nothing but declaring the method with same name but with different parameters,arguments and position.
+ Since in python, method overloading is not possible.
+ we can overcome it with declaring the variable to none, as done below.
+
+ Example:-
+ def add(a,b,c=None,d=None):
+    if c==None and d==None:
+        print(a+b)
+    elif c==None and d!=None:
+        print(a+b+d)
+    elif c!=None and d==None:
+        print(a+b+c)
+    else:
+        print(a+b+c+d)
+add(1,2)
+add(1,2,3)
+
+METHOD OVERRIDING:-
+Method overriding is nothing but implementing the parent class method in the sub class method.
+The method name and the arguments must be same.
+
+Example:-
+class Meoverride():
+    def override(self):
+        print("Check Method override from parent")
+
+    def override(self):
+        print("check from child")
+ride=Meoverride()
+ride.override()
+# Method overriding will override the parent method implementation into the child method
+
