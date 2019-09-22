@@ -1,0 +1,1 @@
+python is ascripting language
