@@ -1,0 +1,16 @@
+Inheritance --> Inheritance is the process of acquiring all the members of super class to sub class accept the private members.
+ --> There are five levels of inheritance--
+ 1. Single level inheritance -->
+    When a single class is extending to a single super class
+
+ 2. MultiLevel Inheritance -->
+    When a sub class is extending to the super class, and that super class is again extending to the another super type.
+
+ 3. Hierarchical Inheritance -->
+    When a super class is extended by more than one sub class.
+
+ 4. Multiple Inheritance -->
+    When a sub class is extended by multiple super class.
+
+ 5. Hybrid Inheritance -->
+    It is the combination of multiple inheritance and the hierarchical inheritance.
