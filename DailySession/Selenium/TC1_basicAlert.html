@@ -1,0 +1,42 @@
+<html>
+   <head>
+      <title>Python-Selenium</title>
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <style>
+         div {
+         margin: 2%;
+         }
+      </style>
+   </head>
+   <body>
+      <div id='alert'>
+         <button id='show-alert' onclick='alert("You got an alert!");'>Alert Me</button>
+      </div>
+      <div id='prompt'>
+         <button id='show-prompt' onclick='var name=prompt("Enter your name!");document.getElementById("name").innerText=name;'>Prompt Me</button>
+      </div>
+      <div id='name-details'>
+         <p>My name is <span id='name'>I don't have name!!!</span></p>
+      </div>
+      <div id='confirm'>
+         <button id='show-confirm' onclick='var status=confirm("is your name correct?");if(status==true) {document.getElementById("name-confirmation").style.display="block";}'>Confirm Me</button>
+      </div>
+      <div id='name-confirmation' style='display: none;'>
+         <p id='name-confirmation'>Thanks for confirming your name!!!</p>
+      </div>
+      <div id='modal'>
+         <button id='open-modal' onclick="document.getElementById('modal-popup').style.display='block'" class="w3-button w3-red">Open Modal</button>
+      </div>
+      <div id="modal-popup" class="w3-modal">
+         <div class="w3-modal-content">
+            <div class="w3-container">
+               <span id='close-modal' onclick="document.getElementById('modal-popup').style.display='none'" class="w3-button w3-display-topright">×</span>
+                  <p id='modal-text'>I am a Modal popup</p>
+                  <div>
+                     <button name='close' onclick="document.getElementById('modal-popup').style.display='none'">Click to Close</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

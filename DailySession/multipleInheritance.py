@@ -19,3 +19,4 @@ o=c()
 o.m1() # only m1 from paren1 will be exceuted
 # o.m2()
 o.m3()
+

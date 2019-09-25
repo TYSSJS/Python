@@ -4,3 +4,6 @@ try:
     print('true')
 except AssertionError:
     print("it is false")
+
+#     Assert condition,False
+#         true

@@ -78,6 +78,10 @@ c=[]
 for i in range(0,list+1):
     if i%2==0:
         b.append(i)
+
+    for i in range(43,958):
+        if(i%2!=0 and i%3!=0 and i%7!=0):
+            print(i,end=' ')
     else:
         c.append(i)
 print("even numbers are=",b)
@@ -102,10 +106,5 @@ def divisible():
         if(i%2!=0 and i%3!=0 and i%7!=0):
             print(i,end=' ')
 divisible()
-
-
-
-
-
 
 

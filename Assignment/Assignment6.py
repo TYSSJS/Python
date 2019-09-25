@@ -1,33 +1,73 @@
 # 1.Using lamda and list comprehension perform any 5 programs.
 # LAMBDA functions
 # prg.1 # add 10 to the argument and print the result
-x=lambda a:a+10
-print(x(5))
+# x=lambda a:a+10
+# print(x(5))
+#
+# # prg2. # multiplies argument with another args
+# x=lambda a,b:a*b
+# print(x(5,4))
+#
+# # prg3. # sum of three numbers
+# x=lambda a,b,c:a*b*c
+# print(x(5,4,5))
+#
+# # prg4. # write a method which return value using lambda
+# def m1(a,n):
+#    return lambda a,n:a*n
+# m1(2,2)
 
-# prg2. # multiplies argument with another args
-x=lambda a,b:a*b
-print(x(5,4))
+# LIST comprehension
+# Write a prg to find the even values.
+# def evenNo():
+#    list=[12,2,3,5,6]
+#    even_no=[i for i in list if i%2==0]
+#    print(even_no,"This is even number")
+# evenNo()
 
-# prg3. # sum of three numbers
-x=lambda a,b,c:a*b*c
-print(x(5,4,5))
+# write a prg to find the odd number
+# def oddNo():
+#    list=[12,2,3,5,6]
+#    odd_no=[i for i in list if i%2!=0]
+#    print(odd_no,"This is odd number")
+# oddNo()
 
-# prg4. # write a method which return value using lambda
-def m1(a,n):
-   return lambda a,n:a*n
-m1(2,2)
+# write a prg to reverse a no.
+# def reverse():
+#    list=[12,2,3,5,6]
+#    print("Reverse",list[::-1])
+# reverse()
 
+# write a program to write numbers from 0 to 20 in list, set and tuple
+# def numbers():
+#    print([i for i in range(20)])
+#    print(set([i for i in range(20)]))
+#    print(tuple([i for i in range(20)]))
+# numbers()
+
+# write a program to find the prime no.
+# num=int(input("Enter"))
+# if num>1:
+#    for i in range(0,num/2):
+#       if(num%i==0):
+#          print(num,"is not a prime")
+#       break
+#    else:
+#       print(num)
+#
+prime_list=[x for x in range(10,11) for y in range(2,x) if x%x==0 and x%1==0 and x%y!=0]
+print(prime_list)
 # 2.Bubble sort using python.
-# def bubblesort(a):
-#     n=len(a)
-#     for i in range(n):
-#         for j in range():
-#             if a[j]>a[j+1]:
-#                 a[j]=a[j+1]
-#                 a[j+1]=a[j]
-# a=12,1,5,10,9
-# bubblesort(a)
-
+# list=[1,9,5,2,3,4]
+# n=len(list)
+# temp=0
+# for i in range(n):
+#     for j in range(n):
+#         if list[i]<list[j]:
+#             temp=list[i]
+#             list[i]=list[j]
+#             list[j]=temp
+# print(list)
 # 3.Wap that displays which letters are present in both the strings. o/p: common characters
 # str1="amrita"
 # str2="ruhisarath"
@@ -66,3 +106,4 @@ m1(2,2)
 # f=open("Assignment6.txt",'w')
 # data="I love python and python"
 # f.write(data.title())
+
