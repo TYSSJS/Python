@@ -10,3 +10,4 @@ f=open("jsonfile.txt",'r')
 data=f.read()
 jsondata=json.loads(data)
 print("json data",jsondata)
+# C:\Users\Amritha\PycharmProjects\pySelenium\Sony100Questions.py

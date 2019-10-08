@@ -5,10 +5,10 @@ from selenium import webdriver
 # # to interact with a window, we need to set the context to that
 #
 driver = webdriver.Chrome()
-# # first tab
+# first tab
 # driver.get("https://www.redit.com")
-#
-# #second tab
+
+#second tab
 # driver.execute_script("window.open('about:blank','tab2');")
 
 #go to seleniumhq.org-->download-->javadoc
@@ -20,13 +20,13 @@ driver = webdriver.Chrome()
 # frames.click()
 
 #scroll
-# driver.get("https://www.amazon.com")
-# driver.maximize_window()
-# driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
-# print("scrolling")
+driver.get("https://www.amazon.com")
+driver.maximize_window()
+driver.execute_script("window.scrollTo(2,document.body.scrollHeight)")
+print("scrolling")
 # driver.close()
 
 #
-driver.get("https://www.vtiger.com")
-privacy = driver.find_elements_by_xpath("//li/descendant::a[text()='Privacy Policy']")
-driver.execute_script("arguments[0].scrollIntoView();",privacy)
+# driver.get("https://www.vtiger.com")
+# privacy = driver.find_elements_by_xpath("//li/descendant::a[text()='Privacy Policy']")
+# driver.execute_script("arguments[0].scrollIntoView();",privacy)
